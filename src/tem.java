@@ -4,14 +4,16 @@ public class tem {
 
         java.util.Scanner sc = new java.util.Scanner(System.in);
 
-        System.out.println("輸入A");
+        System.out.println("輸入第一次成績");
         int a = sc.nextInt();
-        System.out.println("輸入B");
+        System.out.println("輸入第二次成績");
         int b = sc.nextInt();
+        System.out.println("輸入第次成績");
+        int c = sc.nextInt();
 
-        int c=a+b ;
-        int d =a-b;
-        int e =a*b;
+        int d=a+b+c ;
+        int e =(a+b+c)/3;
+        int f =a*b;
 
         System.out.println(c+" " + d+" "+e);
 
