@@ -13,9 +13,8 @@ public class tem {
 
         int d=a+b+c ;
         int e =(a+b+c)/3;
-        int f =a*b;
 
-        System.out.println(c+" " + d+" "+e);
-
+        System.out.println("總分"+d);
+        System.out.println("平均"+e);
     }
 }
